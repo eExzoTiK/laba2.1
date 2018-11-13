@@ -1,0 +1,32 @@
+body, html
+{
+    height: 100%;
+}
+body
+{
+    background: linear-gradient(to bottom right, grey, darkgrey, black);
+}
+.text, button, h1
+{
+    color: white;
+    padding-top: 20px;
+    font-family: Arial;
+    text-align: center;
+}
+button {
+    background: white;
+    font-size: 16px;
+    padding: 2px 53px;
+    color: black;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+#rcorners1 {
+    display:block ;
+    border-radius: 20%;
+    background: #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+
+}
